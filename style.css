@@ -28,11 +28,8 @@ body{
     right: 16%;
     margin-top: 6.8%;
 }
-#quinze:hover{
-    transform: scale(1.2);
-}
 #quatorze{
-    position: absolute;
+    position: fixed;
     width: 10%;
     right: 20%;
     margin-top: 6.8%;
@@ -54,9 +51,6 @@ body{
     width: 10%;
     right: 32%;
     margin-top: 6.8%;
-}
-#onze:hover{
-    transform: scale(1.2);
 }
 #dix{
     position: absolute;
@@ -139,8 +133,9 @@ body{
 }
 
 #doscarte{
-    position: absolute;
+    position: fixed;
     width: 11%;
-    top: 5%;
+    top: 32%;
     left: 25%;
+    z-index: -10;
 }
